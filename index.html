@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Product Landing Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="https://www.dropbox.com/s/e94wnyh7lvmwnh8/logo.png?dl=1" type="image/x-icon">
+</head>
+<body>
+<header id="header">
+  <div class="logo">
+    <img id="header-img" src="https://www.dropbox.com/s/e94wnyh7lvmwnh8/logo.png?dl=1" alt="company logo" />
+  </div>
+  <nav id="nav-bar">
+    <ul id="links">
+      <li>
+        <a class="nav-link" href="#overview-s">OVERVIEW</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#tech-s">TECH SPECS</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#how-s">HOW IT WORKS</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#features-s">FEATURES</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#pricing-s">PRICING</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<div class="container">
+  <div id="hero" class="content">
+    <h1>ARDUINO UNO REV3</h1>
+    <p>The UNO is the best board to get started with electronics and coding. If this is your first experience tinkering with the platform, the UNO is the most robust board you can start playing with. The UNO is the most used and documented board of the whole
+      Arduino family.</p>
+
+    <img src="https://www.dropbox.com/s/6mmb6d1mdueujbx/heroImg.jpg?dl=1" class="responsive" alt="arduion uno picture">
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="ENTER YOUR EMAIL" required>
+      <input id="submit" type="submit" class="button" value="GET MORE INFO">
+    </form>
+  </div>
+
+  <div id="overview" class="content">
+    <h2 id="overview-s">OVERVIEW</h2>
+    <p>Arduino Uno is a microcontroller board based on the ATmega328P (datasheet). It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz quartz crystal, a USB connection, a power jack, an ICSP header and a
+      reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started.. You can tinker with your UNO without worring too much about
+      doing something wrong, worst case scenario you can replace the chip for a few dollars and start over again.</p>
+
+    <p>"Uno" means one in Italian and was chosen to mark the release of Arduino Software (IDE) 1.0. The Uno board and version 1.0 of Arduino Software (IDE) were the reference versions of Arduino, now evolved to newer releases. The Uno board is the first
+      in a series of USB Arduino boards, and the reference model for the Arduino platform; for an extensive list of current, past or outdated boards see the Arduino index of boards.</p>
+  </div>
+
+  <div id="tech" class="content">
+    <h2 id="tech-s">TECHNICAL SPECIFICATIONS </h2>
+    <table>
+      <tr>
+        <td>Microcontroller</td>
+        <td><a href="http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf" target="_blank">ATmega328P</a></td>
+      </tr>
+      <tr>
+        <td>Operating Voltage</td>
+        <td>5V</td>
+      </tr>
+      <tr>
+        <td>Input Voltage (recommended)</td>
+        <td>7-12V</td>
+      </tr>
+      <tr>
+        <td>Input Voltage (limit)</td>
+        <td>6-20V</td>
+      </tr>
+      <tr>
+        <td>Digital I/O Pins</td>
+        <td>14 (of which 6 provide PWM output)</td>
+      </tr>
+      <tr>
+        <td>PWM Digital I/O Pins</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Analog Input Pins</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>DC Current per I/O Pin</td>
+        <td>20 mA</td>
+      </tr>
+      <tr>
+        <td>DC Current for 3.3V Pin</td>
+        <td>50 mA</td>
+      </tr>
+      <tr>
+        <td>Flash Memory</td>
+        <td>32 KB (ATmega328P) of which 0.5 KB used by bootloader</td>
+      </tr>
+      <tr>
+        <td>SRAM</td>
+        <td>2 KB (ATmega328P)</td>
+      </tr>
+      <tr>
+        <td>EEPROM</td>
+        <td>1 KB (ATmega328P)</td>
+      </tr>
+      <tr>
+        <td>Clock Speed</td>
+        <td>16 MHz</td>
+      </tr>
+      <tr>
+        <td>LED_BUILTIN</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>Length</td>
+        <td>68.6 mm</td>
+      </tr>
+      <tr>
+        <td>Width</td>
+        <td>53.4 mm</td>
+      </tr>
+      <tr>
+        <td>Weight</td>
+        <td>25 g</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="how" class="content">
+    
+    <h2 id="how-s">HOW IT WORKS</h2>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/1ENiVwk8idM"  allowfullscreen></iframe>
+    <p>NOTE: the video above is a placeholder, in real product landing page, it would be a video relating to the product.</p>
+    <p>See <a href="https://create.arduino.cc/projecthub?by=part&part_id=8233&sort=trending" target="_blank">projects</a> created using Arduino Uno.</p>
+  </div>
+
+  <div id="features" class="content">
+    <h2 id="features-s">FEATURES</h2>
+    <div class="grid">
+        <div class="desc">
+            <h2><i id="icon" class="fa fa-3x fa-fire"></i>Premium Materials</h2>
+            <p>
+                Our products use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+            </p>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="desc">
+            <h2><i id="icon" class="fa fa-3x fa-truck"></i>Fast Shipping</h2>
+            <p>
+                We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+            </p>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="desc">
+            <h2> <i id="icon" class="fa fa-3x fa-battery-full" aria-hidden="true"></i>Quality Assurance</h2>
+            <p>
+                For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+  <div id="pricing" class="content">
+    <h2 id="pricing-s">PRICING</h2>
+    <div id="pricing-container">
+      <div class="price-box">
+        <div class="box-title">ARDUINO UNO REV3</div>
+        <h2>$22.00</h2>
+        <p>The best board to get started<br> with electronics and coding.</p>
+        <ul>
+          <li>Arduino Uno Rev3</li>
+          <li>Plastic Base Plate</li>
+        </ul>
+        <a class="button" href="https://store.arduino.cc/products/arduino-uno-rev3?queryID=undefined" target="_blank">SELECT</a>
+      </div>
+      <div class="price-box">
+        <div class="box-title">Arduino UNO R4 WiFi</div>
+        <h2>$87.90</h2>
+        <p>EMW3162 WIFI Shield consists<br> of a base board and a  WiFi <br>module EMW3162. 
+          <br>It allows you to connect your Arduino/Nucleo board with the Internet.
+           WiFi communication will become easy for devices that feature
+          Arduino connectivity.</p>
+        <ul>
+          <li>Arduino / Genuino Uno</li>
+          <li>USB cable</li>
+          <li>Breadboard 400 points</li>
+          <li>9v battery snap</li>
+          <li>And more....</li>
+        </ul>
+        <a class="button" href="https://store.arduino.cc/products/uno-r4-wifi?queryID=caed1c25e2c620ad547b25aee93a2b4d" target="_blank">SELECT</a>
+      </div>
+      <div class="price-box">
+        <div class="box-title">Arduino Due</div>
+        <h2>$87.90</h2>
+        <p>The Due is Arduino's first <br>ARM-based Arduino development board. 
+          This board is based on a powerful 32bit CortexM3 <br> ARM microcontroller made programmable through <br>the familiar Arduino IDE.</p>
+        <ul>
+          <li>Arduino / Genuino Uno</li>
+          <li>USB cable</li>
+          <li>Breadboard 400 points</li>
+        </ul>
+        <a class="button" href="https://store.arduino.cc/products/arduino-due?queryID=undefined" target="_blank">SELECT</a>
+      </div>
+    </div>
+  </div>
+
+  <footer id="footer" class="content-footer">
+    <ul>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms Of Service</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <span>© 2024 ChetanST</span>
+  </footer>
+</div>
+</body>
+</html>
